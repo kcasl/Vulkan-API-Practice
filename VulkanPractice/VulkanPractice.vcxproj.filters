@@ -13,10 +13,13 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Chapter2_Vulkan_Pseudocode">
+      <UniqueIdentifier>{29642667-43b9-4a28-9b1c-c31bb9de9441}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Pseudocode.cpp">
+      <Filter>소스 파일\Chapter2_Vulkan_Pseudocode</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
