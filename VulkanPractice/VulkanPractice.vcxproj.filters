@@ -16,10 +16,33 @@
     <Filter Include="소스 파일\Chapter2_Vulkan_Pseudocode">
       <UniqueIdentifier>{29642667-43b9-4a28-9b1c-c31bb9de9441}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter3">
+      <UniqueIdentifier>{193c7055-c77e-4784-b6d7-65aae1f64a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\T">
+      <UniqueIdentifier>{dbfa490f-e927-4e60-adcf-d5757d69cb53}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Pseudocode.cpp">
       <Filter>소스 파일\Chapter2_Vulkan_Pseudocode</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\T</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>소스 파일\T</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstApp.cpp">
+      <Filter>소스 파일\T</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>소스 파일\T</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstApp.h">
+      <Filter>소스 파일\T</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
